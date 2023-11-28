@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "hackedclientest",
+  "version": "${version}",
+  "name": "HackedClientTest",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/arnaulopez/HackedClientTest"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hackedclientest/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "mrarnau.hackedclienttest.hackedclientest.client.HackedClientTestClient"
+    ],
+    "main": [
+      "mrarnau.hackedclienttest.hackedclientest.HackedClientTest"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
